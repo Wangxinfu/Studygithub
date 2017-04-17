@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+
+.foot{
+    width: 100%;
+    min-width: 1060px;
+    height: 710px;
+    position: relative;
+    top: 140px;
+}
+
+.foot .foot_fisrt{
+	width: 100%;
+	min-width: 1060px;
+	height: 100px;
+	background: #e5e5e5;
+}
+
+.foot .foot_fisrt ul{
+	width: 1060px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+
+}
+
+.foot .foot_fisrt ul li{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+	top: 20px;
+}
+
+.foot .foot_fisrt ul .hh{
+    border-right: 1px dashed #777;
+}
+
+.foot .foot_fisrt ul .foot_fisrt_01{
+	background: url(../images/footer01.png) no-repeat;
+}
+
+.foot .foot_fisrt ul .foot_fisrt_02{
+	background: url(../images/footer02.png) no-repeat;
+}
+
+.foot .foot_fisrt ul .foot_fisrt_03{
+	background: url(../images/footer03.png) no-repeat;
+}
+
+.foot .foot_fisrt ul .foot_fisrt_04{
+	background: url(../images/footer04.png) no-repeat;
+}
+
+.foot .foot_fisrt ul .foot_fisrt_05{
+	background: url(../images/footer05.png) no-repeat;
+}
+
+.foot .foot_fisrt ul span{
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 18px;
+	text-align: center;
+	font-size: 20px;
+	color: #777;
+}
+
+
+.foot .foot_second{
+	width: 1060px;
+	height: 195px;
+	border-bottom: 1px solid #d1d1d1;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.foot .foot_second .same{
+	display: inline-block;
+	width: 145px;
+	height: 195px;
+	padding-top: 20px;
+	vertical-align: top;
+}
+
+.foot .foot_second .same header{
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #5b5b5b;
+	font-size: 12px;
+}
+
+.foot .foot_second .same ul{
+	width: 145px;
+	height: 150px;
+}
+
+.foot .foot_second .same li{
+	list-style-type: none;
+	color: #818181;
+	font-size: 12px;
+	padding-top: 3px;
+}
+
+
+.foot .foot_last{
+	width: 1060px;
+	height: 76px;
+	margin: 0 auto;
+}
+
+.foot .foot_last .foot_ftw{
+	width: 1060px;
+	height: 38px;
+}
+
+.foot .foot_last ul{
+	width: 1060px;
+	height: 38px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.foot .foot_last li{
+	display: inline-block;
+	width: 80px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 12px;
+	color: #818181;
+	border-right: 1px dashed #d1d1d1;
+}
+
+.foot .foot_last .foot_ftw li:last-child{
+	border: none;
+}
+
+.foot .foot_second .sm header{
+	margin-bottom: 5px;
+}
+
+.foot .foot_second .sm li{
+	width: 88px;
+	height: 88px;
+	background: url(../images/erweima.png) no-repeat;
+}
+
+.foot .foot_last .foot_end{
+	width: 1060px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #818181;
+}
